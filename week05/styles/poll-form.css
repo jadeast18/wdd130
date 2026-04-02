@@ -30,12 +30,12 @@ form {
     border: solid 1px rgb(0 0 0 / 0.1);
     border-radius: 15px;
     background-color: powderblue;
-    display: block;
+    display: grid;
 }
 
 fieldset {
     display: grid;
-    gap: 2rem;
+    gap: 5rem;
     border: solid 10px red;
     padding: 30px;
     margin: 16px;
