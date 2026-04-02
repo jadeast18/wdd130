@@ -1,0 +1,111 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+header {
+    margin: 0 auto;
+    width: 750px;
+}
+
+h1 {
+    color: darkslateblue;
+    margin: 2rem;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: solid 1px rgb(0 0 0 / 0.1);
+    border-radius: 15px;
+    background-color: powderblue;
+    display: block;
+}
+
+fieldset {
+    display: grid;
+    gap: 2rem;
+    border: solid 10px red;
+    padding: 30px;
+    margin: 16px;
+}
+
+legend {
+    padding: 1rem;
+    color: maroon;
+    font-size: 1.5em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+input[type="checkbox]" {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    color: pink;
+    background-color: brown;
+    margin: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8em;
+    color: turquoise;
+    border-top: 1px solid maroon;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
