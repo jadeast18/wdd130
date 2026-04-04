@@ -98,7 +98,8 @@ h2 {
     height: auto;
     width: 150px;
     align-items: center;
-    border: dashed;
+    /*border: dashed;*/
+    float: right;
     /*padding-right: 1rem;*/
 }
 
