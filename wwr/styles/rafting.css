@@ -81,9 +81,9 @@ h2 {
     /*background-color: var(--accent2-color);*/
 }
 
-.img-article article {
+.hero article {
     position: absolute;
-    top: 280px;
+    top: 130px;
     height: auto;
     width: 810px;
     padding: 2px;
@@ -91,12 +91,14 @@ h2 {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     padding: 1rem;
+    /*border: dashed;*/
 }
 
-.img-article img {
+.hero article img {
     height: auto;
     width: 150px;
     align-items: center;
+    border: dashed;
     /*padding-right: 1rem;*/
 }
 
@@ -152,6 +154,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    /*border: dashed;*/
     /* enter declarations here */
 }
 
