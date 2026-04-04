@@ -160,7 +160,7 @@ h2 {
 
 .grid-section {
     display: grid;
-    grid-template-columns: repeat(4);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: auto auto;
     justify-content: space-around;
     padding: 0px;
@@ -190,7 +190,7 @@ h2 {
 
 .adventure-grid {
     display: grid;
-    grid-template-columns: repeat(5);
+    grid-template-columns: repeat(5, 1fr);
     /*grid-template-rows: auto auto;*/
     background-color: lightgreen;
     gap: 1rem;
