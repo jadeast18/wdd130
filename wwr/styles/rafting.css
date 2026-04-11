@@ -2,7 +2,7 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    /*--accent2-color: #e9c46a;*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -29,7 +29,7 @@ footer {
 
 header {
     background-color: #055a05;
-    color: #e9c46a;
+    /*color: #e9c46a;*/
     display: grid;
     align-items: center;
     grid-template-columns: repeat(4, 200px);
@@ -124,12 +124,10 @@ h2 {
 }
 
 .flex {
-    /*background-color: #aba;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    vertical-align: bottom;
     /* write declarations here */
 }
 
@@ -216,7 +214,7 @@ nav ul {
     /*justify-content: space-between;*/
     align-items: center;
     margin: 1rem;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
 nav {
