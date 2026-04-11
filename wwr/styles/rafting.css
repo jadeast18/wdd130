@@ -292,9 +292,9 @@ td {
     /*border: solid;*/
 }
 
-input[type="radio"] {
+/*input[type="radio"] {
     margin-right: .5rem;
-}
+}*/
 
 input[type="text"] {
     width: 100%;
