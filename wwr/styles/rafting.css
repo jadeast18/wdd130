@@ -89,6 +89,8 @@ h2 {
     color: #FFFFFF;
     padding: 1rem;
     /*border: dashed;*/
+    text-align: justify;
+    gap: 1rem;
 }
 
 .hero article img {
@@ -99,14 +101,6 @@ h2 {
     float: right;
     /*padding-right: 1rem;*/
 }
-
-/*.img-article {
-    float: right;
-    width: 2px;
-    height: 2px;
-
-    object-fit: cover;
-}*/
 
 .container4 {
     display: grid;
@@ -159,6 +153,11 @@ h2 {
     justify-content: space-around;
     padding: 0px;
     gap: 10px;
+    margin: 0px;
+}
+
+.grid-section p {
+    text-align: justify;
 }
 
 .columns-3 {
@@ -178,7 +177,6 @@ h2 {
     place-items: center;
     font-size: medium;
     background-color: #e6dcc8;
-    ;
     color: #000000;
 
 }
@@ -280,10 +278,12 @@ iframe {
     border: solid;
 }
 
-/*table,*/
-td {
+.contact-table {
+    border: none;
+}
+
+.contact-table td {
     padding: .3rem;
-    /*border: solid;*/
 }
 
 input[type="radio"] {
@@ -338,4 +338,276 @@ button {
     align-items: center;
     text-align: center;
     font-weight: bold;
+}
+
+.main-override {
+    max-width: none;
+    border: dashed;
+}
+
+.hero-index img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-index h1 {
+    position: absolute;
+    top: 620px;
+    width: 100%;
+    /*padding: 16px;*/
+    text-align: center;
+    opacity: 0.8;
+    background-color: #264653;
+    background-size: 500px;
+    color: #FFFFFF;
+    font-size: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-index h6 {
+    position: absolute;
+    top: 820px;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.grid-index-section {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    grid-template-columns: repeat(2, 1fr);
+    /*padding: 1rem;*/
+    margin-top: 2rem;
+    /*gap: 1rem;*/
+    right: 300px;
+    margin-bottom: 1rem;
+}
+
+.grid-index-section img {
+    width: 420px;
+}
+
+.grid-index-section p,
+h3 {
+    text-align: justify;
+    margin: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border-img1 {
+    border-right: solid 10px;
+    border-right-color: #264653;
+    border-bottom: solid 10px;
+    border-bottom-color: #ace;
+}
+
+.border-img2 {
+    border-left: solid 10px;
+    border-left-color: #264653;
+    border-top: solid 10px;
+    border-top-color: #ace;
+}
+
+.trip-index {
+    background-color: #264653;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.trip-index h1 {
+    color: #FFFFFF;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.trip-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    right: -280px;
+    top: -25px;
+}
+
+.trip-button:hover {
+    background-color: #0056b3;
+}
+
+.form-index {
+    background-color: #d6c6a5;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 840px;
+    height: 180px;
+    margin-bottom: 1rem;
+}
+
+.form-index table {
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    position: relative;
+    right: -50px;
+}
+
+.form-index td {
+    border: none;
+}
+
+.form-index table p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-index table h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-index table button {
+    width: 150px
+}
+
+.form-textbox {
+    width: 300px;
+    /*height: 40px;*/
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.hero-trips {
+    position: relative;
+}
+
+.hero-trips img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-top: .5rem;
+}
+
+.hero-trips h1 {
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    /*padding: 16px;*/
+    text-align: center;
+    opacity: 0.8;
+    background-color: #264653;
+    background-size: 500px;
+    color: #FFFFFF;
+    -webkit-text-stroke: #000000 1px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-trips {
+    /*background-color: #264653;*/
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.contact-trips h1 {
+    color: #000000;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: 5px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.grid-trips-section {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    grid-template-columns: repeat(2, 1fr);
+    /*padding: 1rem;*/
+    margin-top: 2rem;
+    /*gap: 1rem;*/
+    right: 300px;
+    margin-bottom: 1rem;
+}
+
+.grid-trips-section img {
+    width: 420px;
+}
+
+.grid-trips-section p,
+h3,
+h4 {
+    text-align: justify;
+    margin: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.trip-3-bg {
+    background-color: #264653;
+    color: #FFFFFF;
+}
+
+.trip-3-bg img {
+    width: 195px;
+    height: 140px;
+}
+
+.trip-overview {
+    margin: 0px;
+    margin-top: 8px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.trip-overview h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trip-overview table,
+th {
+    /*border: solid #264653;*/
+    width: 100%;
+    table-layout: fixed;
+    /*border-collapse: collapse;*/
+    padding: 5px;
+}
+
+.trip-overview th {
+    background-color: #264653;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.trip-overview tr:nth-child(even) {
+    background-color: #eedcb9;
+}
+
+.trip-ovr-lastcol {
+    text-align: center;
 }
